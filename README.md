@@ -22,7 +22,7 @@ In this notebook, you will learn how to:
 - Dynamically customize filled contour plots based on user input.
 - Visualize and manipulate a mathematical function:
   \[
-  f(q_1, q_2) = k_1 \cdot q_1^2 + k_2 \cdot q_2^2 + c \cdot q_1 \cdot q_2
+  $f(q_1, q_2) = k_1 \cdot q_1^2 + k_2 \cdot q_2^2 + c \cdot q_1 \cdot q_2$
   \]
 - Adjust plot parameters like contour range and number of contours in real-time.
 
