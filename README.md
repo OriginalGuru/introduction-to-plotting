@@ -30,5 +30,21 @@ In this notebook, you will learn how to:
 ---
 
 ## Assignment
-[Add your assignment here]
+In this assignment, you will create your own Jupyter Notebook with a multipanel figure and sliders to explore the response of:
+
+1. coupled oscillators;
+2. an anharmonic oscillator with and without an external field.
+
+### Background:
+In class, we showed the model for an oscillator, or coupled oscillators, and the coupling to external fields can be found by knowning the symmetry of the physical system. In this exercise, we are going to use those results to anticipate what types of motion, or dynamical regimes, are possible. 
+
+Recall that the symmetry properties we derived for 'vector-like' 1D objects were:
+
+| symbol | 1D object    | identity | mirror_z | mirror_y | rotation_x_180 |
+|--------|--------------|----------|----------|----------|----------------|
+|   Q_1  | scalar       |    1     |    1     |    1     |       1        |
+|   Q_2  | pseudoscalar |    1     |   -1     |   -1     |       1        |
+|   Q_3  | polar vector |    1     |   -1     |    1     |      -1        |
+|   Q_4  | axial vector |    1     |    1     |   -1     |      -1        |
+
 
