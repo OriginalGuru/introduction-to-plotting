@@ -30,21 +30,31 @@ In this notebook, you will learn how to:
 ---
 
 ## Assignment
-In this assignment, you will create your own Jupyter Notebook with a multipanel figure and sliders to explore the response of:
-
-1. coupled oscillators;
-2. an anharmonic oscillator with and without an external field.
+In this assignment, you will create your own Jupyter Notebook with a multipanel figure and sliders to explore the response of anharmonically coupled oscillators.
 
 ### Background:
-In class, we showed the model for an oscillator, or coupled oscillators, and the coupling to external fields can be found by knowning the symmetry of the physical system. In this exercise, we are going to use those results to anticipate what types of motion, or dynamical regimes, are possible. 
+An important area of research in the last decade, has been the study of the following model of coupled oscillators.
 
-Recall that the symmetry properties we derived for 'vector-like' 1D objects were:
+$U(Q_1,Q_2) = \frac{1}{2} K_1 Q_1^2 + \frac{1}{2} K_2 Q_2^2 + C Q_1 Q_2^2$
 
-| symbol | 1D object    | identity | mirror_z | mirror_y | rotation_x_180 |
-|--------|--------------|----------|----------|----------|----------------|
-|   Q_1  | scalar       |    1     |    1     |    1     |       1        |
-|   Q_2  | pseudoscalar |    1     |   -1     |   -1     |       1        |
-|   Q_3  | polar vector |    1     |   -1     |    1     |      -1        |
-|   Q_4  | axial vector |    1     |    1     |   -1     |      -1        |
+In this exercise, we will explore why people are interested in this model by using side-by-side plots, like those derived in the Jupyter Notebooks for this week.
 
+### Preparation:
+Review the construction of plots from this week's notebooks with `matplotlib` using `plt.plot` and `plt.contourf`, and the use of `ipywidgets`.
+
+### Getting started:
+Create a Jupyter Notebook which defines the energy above and plots in two side-by-side panels:
+
+- Plot $U(Q_1,Q_2)$ with $Q_1$ on the horizonal axis adn $Q_2=0$;
+- Add several lines with fixed positive and negative values of $Q_2$ chosen to explore the possible effect of $Q_2$ on $Q_1$;
+- Add a second panel which plots $U(Q_1,Q_2)$;
+- Add an ipywidgets environment so that you can explore what different values of $K_1$, $K_2$, and $C$ does to your plot.
+
+### Explore the physics
+After tinkering with your plots, answer the follwing questions:
+
+1. As you increase $C$, how do the low energy contours start to change?
+2. Does the force on $Q_1$ depend on the direction of $Q_2$?
+3. What do you expect the influence of driving $Q_2$ to be on the motion of $Q_1$?
+3. If $Q_1$ is kicked away from equilibrium, what do you expect its influence to be on $Q_2$?
 
