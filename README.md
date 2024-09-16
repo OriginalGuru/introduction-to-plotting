@@ -49,6 +49,7 @@ Create a Jupyter Notebook which defines the energy above and plots in two side-b
 - Add several lines with fixed positive and negative values of $Q_2$ chosen to explore the possible effect of $Q_2$ on $Q_1$;
 - Add a second panel which plots $U(Q_1,Q_2)$;
 - Add an `ipywidgets` environment so that you can explore what different values of $K_1$, $K_2$, and $C$ does to your plot.
+- Make sure that your axes are labeled and that you have a plot legend, if appropriate.
 
 ### Explore the physics
 After tinkering with your plots, answer the following questions:
