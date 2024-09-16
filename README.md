@@ -33,7 +33,7 @@ In this notebook, you will learn how to:
 In this assignment, you will create your own Jupyter Notebook with a multipanel figure and sliders to explore the response of anharmonically coupled oscillators.
 
 ### Background:
-An important area of research in the last decade, has been the study of the following model of coupled oscillators.
+An important area of research in the last decade has been the study of the following model of coupled oscillators. See, for example, this review article, if you'd like to explore why: (**Engineering Crystal Structures with Light**)[https://www.nature.com/articles/s41567-021-01366-1].
 
 $U(Q_1,Q_2) = \frac{1}{2} K_1 Q_1^2 + \frac{1}{2} K_2 Q_2^2 + C Q_1 Q_2^2$
 
@@ -48,12 +48,12 @@ Create a Jupyter Notebook which defines the energy above and plots in two side-b
 - Plot $U(Q_1,Q_2)$ with $Q_1$ on the horizonal axis adn $Q_2=0$;
 - Add several lines with fixed positive and negative values of $Q_2$ chosen to explore the possible effect of $Q_2$ on $Q_1$;
 - Add a second panel which plots $U(Q_1,Q_2)$;
-- Add an ipywidgets environment so that you can explore what different values of $K_1$, $K_2$, and $C$ does to your plot.
+- Add an `ipywidgets` environment so that you can explore what different values of $K_1$, $K_2$, and $C$ does to your plot.
 
 ### Explore the physics
-After tinkering with your plots, answer the follwing questions:
+After tinkering with your plots, answer the following questions:
 
-1. As you increase $C$, how do the low energy contours start to change?
+1. As you increase $C$, how do the low-energy contours start to change?
 2. Does the force on $Q_1$ depend on the direction of $Q_2$?
 3. What do you expect the influence of driving $Q_2$ to be on the motion of $Q_1$?
 3. If $Q_1$ is kicked away from equilibrium, what do you expect its influence to be on $Q_2$?
